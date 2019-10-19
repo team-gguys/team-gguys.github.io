@@ -2146,13 +2146,6 @@ ul {
   padding: 0rem !important;
 }
 
-@media (max-width: 991px) {
-  /* line 10, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_menu.scss */
-  .main_menu .navbar-brand img {
-    max-width: 120px;
-  }
-}
-
 /* line 17, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_menu.scss */
 .main_menu .social_icon a {
   color: #fff;
@@ -6622,3 +6615,14 @@ h6 {
 }
 
 /*# sourceMappingURL=../css/style.map */
+
+.main_menu .navbar-brand img {
+  max-height: 75px;
+}
+
+@media (max-width: 991px) {
+  /* line 10, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_menu.scss */
+  .main_menu .navbar-brand img {
+    max-height: 40px;
+  }
+}
